@@ -1,0 +1,16 @@
+require "gir_ffi-gtk3"
+
+Gtk.init
+
+class CustomWindow < Gtk::Window
+
+    
+
+end
+
+
+win = CustomWindow.new(:toplevel)
+win.set_title ("Custom Widget")
+win.show_all
+
+Gtk.main
