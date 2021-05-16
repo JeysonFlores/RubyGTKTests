@@ -1,7 +1,7 @@
 require "gir_ffi-gtk3"
 
 GirFFI.setup :Granite, "1.0"
-GirFFI.setup :"Handy", "0.0"
+GirFFI.setup :Handy, "0.0"
 
 Gtk.init
 Handy.init
